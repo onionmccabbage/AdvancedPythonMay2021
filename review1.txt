@@ -1,0 +1,23 @@
+Advanced Python Review Exercise 1 see https://pastebin.com/Ps28jSK9
+================================= until 2:20-2:30
+
+Ask the user for a number 'n' (check it is numeric)
+Print the square roots of the numbers from 1 to n using map, then using list comprehension
+
+Implement a function which takes a single parameter and reports if it is a square number (i.e. True or False)
+Use this as a filter function to take the numbers -100 to 100 and return only those which are NOT square numbers
+
+Write a generator function limited to a maximum of ten values (1-10) (use yield not return)
+It should return the text from 'http://jsonplaceholder.typicode.com/users/n' for all values from 1 to n inclusive
+(NB use .format to add the value of n to the end of the url)
+(Check the arguments are of the correct type and within range)
+Implement it using an iterable (for...) and also using __next__
+
+Optional
+--------
+Write a class which incorporates the filter function and generator you wrote (via import)
+Instances of the class should be given min/max values (with sensible defaults)
+Provide accessors to derive values such as is-square and users
+
+
+
