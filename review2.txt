@@ -1,5 +1,5 @@
-Advanced Python Review 2 
-========================
+Advanced Python Review 2 see https://github.com/onionmccabbage/AdvancedPythonMay2021/blob/main/review2.txt
+======================== until about 2:45-3:00 ish
 In a new package, write modules to implement a weather service
 You can use the following end-point to get the current weather (as JSON):
 http://api.openweathermap.org/data/2.5/weather?q=athlone,ie&units=metric&APPID=48f2d5e18b0d2bc50519b58cce6409f1
@@ -24,7 +24,7 @@ Optional:
 Write a custom generator which yields city/country pairs
 Use this generator to make weather requests for the __next__ city/country pair
 
-Appemd the following 'city, country' values in a text file (e.g. via your generator):
+Append the following 'city, country' values in a text file (e.g. via your generator):
 '''Athlone,ie
 Galway,ie
 Hull,uk
