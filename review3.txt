@@ -12,7 +12,7 @@ Change the Point class so self.__y  is exposed as a property through getter/sett
 In the setter method, validate that y is an 'int' or 'float' and raise an exception if not
 
 Open the 'using_encoding' example (where we encode 'Item' class instances to JSON)
-Write tests to ensure the encoding occurs as expected and that expceptions are raised where necessary
+Write tests to ensure the encoding occurs as expected and that exceptions are raised where necessary
 
 Open the context manager examples and write tests to validate that they behave as expected
 
