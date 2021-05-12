@@ -1,0 +1,38 @@
+Using client/server, Writing Tests and using Databases
+======================================================
+For these exercises, pick the ones you want to try
+
+Unit Testing:
+-------------
+Recreate the doctest examples with unittest and/or pytest
+
+Open the 'my_points.py' and 'my_points_test.py' modules
+Write a test which tries to set a string value for y and asserts that an exeption is raised
+Change the Point class so self.__y  is exposed as a property through getter/setter methods
+In the setter method, validate that y is an 'int' or 'float' and raise an exception if not
+
+Open the 'using_encoding' example (where we encode 'Item' class instances to JSON)
+Write tests to ensure the encing occurs as expected and that expceptions are raised where necessary
+
+Open the context manager examples and write tests to validate that they behave as expected
+
+Client/Server:
+--------------
+Return to the client and server modules we wrote previosuly and adapt the server with several conditional blocks
+(You will make the server into a proxy for other API end-points)
+If the client asks for 'user/1':
+  the server should invoke a request to 'https://jsonplaceholder.typicode.com/users/1' then return data to the client
+  (do this by using yours or my code from earlier)
+If the client asks for 'weather/galway/ie':
+  the server should invoke a request for the weather (using code we already have) and return weather to the client
+Make the client persist, asking the user for input, until the user enters 'quit'
+
+Databases
+---------
+Return to the weather exercise (or use the solution from the repository https://github.com/onionmccabbage/AdvancedPythonMay2021/review2)
+Initialise a weather database with a table and a few data members (e.g. date, city, country, description and temperature)
+For every weather report put the results into the database, including a date-time of when you created the report
+Provide a way to read back all the weather reports
+You could also tie this in to the server proxy exercise above
+
+
