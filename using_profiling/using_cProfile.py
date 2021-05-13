@@ -25,5 +25,5 @@ if __name__ == '__main__':
     count.num_calls = 0
     for _ in range(1,99):
         count()
-    f = fib(42)
+    f = fib(32)
     print(f)
