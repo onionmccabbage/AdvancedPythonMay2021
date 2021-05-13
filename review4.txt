@@ -1,4 +1,4 @@
-Advanced Python Review 4:
+Advanced Python Review 4: see https://github.com/onionmccabbage/AdvancedPythonMay2021/blob/main/review4.txt
 =========================
 This exercise is an opportunity to consider architecture as well as build a solution
 There is an API end-point here: https://swapi.dev/api  	   (it is a Python API written in Django)
